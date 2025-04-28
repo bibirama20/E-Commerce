@@ -27,12 +27,12 @@ class AuthController extends Controller
         $users = [
             'admin' => [
                 'username' => 'admin',
-                'password' => '$2y$10$rFvCCFpQZxIIS2UPKr.hEeF.wbE1ctrO5jrNisH4ZTyzJDDNGMnwG', // admin123
+                'password' => '$2y$10$rFvCCFpQZxIIS2UPKr.hEeF.wbE1ctrO5jrNisH4ZTyzJDDNGMnwG', //123
                 'role'     => 'admin'
             ],
             'user' => [
                 'username' => 'user',
-                'password' => '$2y$10$rFvCCFpQZxIIS2UPKr.hEeF.wbE1ctrO5jrNisH4ZTyzJDDNGMnwG', // 'user123'
+                'password' => '$2y$10$rFvCCFpQZxIIS2UPKr.hEeF.wbE1ctrO5jrNisH4ZTyzJDDNGMnwG', // 123
                 'role'     => 'user'
             ]
         ];
